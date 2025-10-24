@@ -85,15 +85,12 @@ How many observations are there in the data set?
 ## Exercise 2
 
 ```{r pivoting}
-## Uncomment and complete the following code
-
-#staff_long <- ___ %>%
-#  ___(
-#    cols = ____, 
-#    names_to = "_____",
-#    values_to = "percent"
-#    )
-
+staff_long <- staff %>%
+  pivot_longer(
+    cols = -faculty_type,
+    names_to = "date",
+      values_to = "percent"
+  )
 ```
 
 
