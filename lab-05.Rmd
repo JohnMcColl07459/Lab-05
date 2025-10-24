@@ -130,7 +130,11 @@ staff_long <- staff_long %>%
 
 ```{r working-line-plot}
 # Write your code for Exercise 5 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = date, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line()
 
 
 ```
@@ -139,7 +143,13 @@ staff_long <- staff_long %>%
 
 ```{r better-line-plot}
 # Write your code for Exercise 6 here
-
+ggplot(data = staff_long,
+       mapping = aes(x = date, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  labs(title = "percentage of faculty type over the years", x= "Year", y= "Percentage of Faculty type"
+      )+
+  geom_line()
 
 
 
