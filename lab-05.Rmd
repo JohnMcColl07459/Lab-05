@@ -22,7 +22,7 @@ knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
 _Write your comments about image 1 below_
-The size of bars are really inconsistent Hindi is a much smaller bar than Spanish but the amount of speakers is not as much less. The bar for China is much thicker than the bar for English - over twice the thickness. China's number of speakers is 1,026 Billion but there isn't even 1,026 Billion people in the world, it was definitively meant to be 1,026 Million. The bar for English is also not much larger than the bar for Spanish even though there are many more speakers for English than Spanish. 
+The size of bars are really inconsistent Hindi is a much smaller bar than Spanish but the amount of speakers is not as much less. The bar for China is much thicker than the bar for English - over twice the thickness. China's number of speakers is 1,026 Billion but there isn't even 1,026 Billion people in the world, it was definitively meant to be 1,026 Million. The bar for English is also not much larger than the bar for Spanish even though there are many more speakers for English than Spanish. v
 
 
 
